@@ -1,0 +1,353 @@
+
+/* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .app {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.popup_inner {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    /*top: 25%;*/
+    bottom: 40%;
+    /*margin: auto;*/
+    background: white;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font11 {
+    font-size: 11px;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.white {
+    color: #FFF;
+}
+
+.red {
+    color: #DB0A0A;
+}
+
+.orange {
+    color: #FF8F00;
+}
+
+.green {
+    color: #43741F;
+}
+
+.green2 {
+    color: #3BB81C;
+}
+
+.blue {
+    color: #0068A8;
+}
+
+.yellow {
+    color: #DD9F00;
+}
+
+.black {
+    color: #000;
+}
+
+.gray {
+    color: #C9C9C9;
+}
+
+.lightBlue {
+    color: #2FC1D5;
+}
+
+.lightBlue2 {
+    color: #D9EDF7;
+}
+
+.lightBlue3 {
+    color: #FAFDFF;
+}
+
+
+.blue2 {
+    color: #3878AA;
+}
+
+.bg-gray {
+    background-color: #C9C9C9;
+}
+
+.bg-lightBlue3 {
+    background-color: #FAFDFF;
+}
+
+.bg-yellow {
+    background-color: #DD9F00;
+}
+
+.m5 {
+    margin: 5px;
+}
+
+.m {
+    margin: 15px;
+}
+
+.m-l {
+    margin-left: 15px;
+}
+
+.m-t {
+    margin-top: 15px;
+}
+
+.m-t12 {
+    margin-top: 12px;
+}
+
+.m-r {
+    margin-right: 15px;
+}
+
+.m-r2 {
+    margin-right: 2px;
+}
+
+.m-b {
+    margin-bottom: 15px;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p {
+    padding: 15px;
+}
+
+.p-l {
+    padding-left: 15px;
+}
+
+.p-r35 {
+    padding-right: 35px;
+}
+
+.p-t {
+    padding-top: 15px;
+}
+
+.p-t5 {
+    padding-top: 5px;
+}
+
+
+.p-r {
+    padding-right: 15px;
+}
+
+.p-b {
+    padding-bottom: 15px;
+}
+
+.p-b5 {
+    padding-bottom: 5px;
+}
+
+
+.b {
+    border: 1px solid;
+}
+
+.b-l {
+    border-left: 1px solid;
+}
+
+.b-t {
+    border-top: 1px solid;
+}
+
+.b-r {
+    border-right: 1px solid;
+}
+
+.b-b {
+    border-bottom: 1px solid;
+}
+
+.b-b3 {
+    border-bottom: 3px solid;
+}
+
+.b-color {
+    border-color: #D9EDF7;
+}
+
+.n-m {
+    margin: 0;
+}
+
+.n-m-l {
+    margin-left: 0;
+}
+
+.n-m-t {
+    margin-top: 0;
+}
+
+.n-m-r {
+    margin-right: 0;
+}
+
+.n-m-b {
+    margin-bottom: 0;
+}
+
+.n-p {
+    padding: 0;
+}
+
+.n-p-l {
+    padding-left: 0;
+}
+
+.n-p-t {
+    padding-top: 0;
+}
+
+.n-p-r {
+    padding-right: 0;
+}
+
+.n-p-b {
+    padding-bottom: 0;
+}
+
+.n-b {
+    border: 0;
+}
+
+.n-b-l {
+    border-left: 0;
+}
+
+.n-b-t {
+    border-top: 0;
+}
+
+.n-b-r {
+    border-right: 0;
+}
+
+.n-b-b {
+    border-bottom: 0;
+}
+
+
+
+
+.v-t {
+    vertical-align: top;
+}
+
+.no-display {
+    display: none;
+}
+
+.no-shadow {
+    box-shadow: none;
+}
+
+.no-border-radius {
+    border-radius: 0px;
+}
+
+
+.w10 {
+    width: 10px;
+}
+
+.w30 {
+    width: 30px;
+}
+
+.w50 {
+    width: 50px;
+}
+
+.w80 {
+    width: 80px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w110 {
+    width: 110px;
+}
+
+.w120 {
+    width: 120px;
+}
+
+.w140 {
+    width: 140px;
+}
+
+.w250 {
+    width: 250px;
+}
+
+.popup-header {
+    background-color: #4189c7;
+    color: white;
+}
+
+.close-button {
+    background-color: #961515;
+    color: white;
+}
